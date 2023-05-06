@@ -1,0 +1,270 @@
+
+img{ display: block;
+	margin: auto ;
+
+}
+
+nav a  
+	 
+		
+	 
+
+
+
+
+nav ul li{
+	display: inline;
+	text-decoration:none;
+	;
+	
+
+}
+nav ul li a{
+
+	text-decoration:none;
+	font-size:40px
+	
+	
+	
+
+ }
+
+nav ul li a:hover{
+	color: white;
+	text-decoration:none;
+	
+	
+
+ }
+nav{
+	text-decoration: none;
+}
+
+
+
+
+
+ul{ 
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	align-items: center;
+	padding:10px;
+	border-radius: 50px;
+	
+
+}
+
+
+
+
+p{color:whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+
+
+
+body {
+	background: rgb(253,45,175);
+background: linear-gradient(0deg, rgba(253,45,175,1) 0%, rgba(45,231,253,1) 98%);
+}
+
+
+
+/*
+	Informações a respeitos dos membros da página
+*/
+h1 { 
+	text-transform: uppercase;
+	text-shadow: -3px 0px 0px whitesmoke;
+	text-align:center ;	
+    color:black;
+    font-family:Century Gothic;
+	font-size: 60px;
+	background-color: none;
+    
+}
+
+h2 {color:black;
+   font-size: 40px;
+   background-color:white;
+   border-radius: 50px;
+   text-align: center;
+   margin: 30px auto 30px auto;
+   width:60px 
+    )
+}
+table{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	border-radius: 100px;
+	font-size: 30px;
+	margin: 0 auto 0 auto;
+}
+th {
+	background-color: white;
+	border-radius: 100px;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	
+}
+
+.member {
+	width: 400px;
+	height: 400px;
+	margin-bottom: 50px;
+	background-color: BLACK;
+	padding: 50px;
+	box-sizing: border-box;
+	border-radius: 300px;
+}
+
+.member img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 20px;
+	border-radius: 3;
+}
+
+.member h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	color:white
+}
+
+.member p {
+	margin-bottom: 0;
+	font-size: 20px;
+	text-align: center;
+
+}
+.contato{
+	text-align: center;
+	font-size: 50px;
+	border-radius: 100px;
+	background-color: white;
+	
+}
+      form {
+        width: 50%;
+        border-radius: 50px;
+        border: 30px solid white;
+		padding: 20px;
+		margin: 0 auto;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+   
+
+}
+.chevron {
+	background:black ;
+	display: block;
+	width: 50;
+	height:50 ;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 100;
+	right: 100;
+	transition:all .3s;
+	}
+.chevron:hover{
+	box-shadow: 3px 3px 3px white;
+	
+ 
+
+}	
+
+
+
+
+
+
+
+@media screen and (max-width:390px){
+	body {
+		background: green;
+	}
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+! pagina home 
+.baixo{
+  display: flex;
+  margin: 0 auto;
+}
+
+.produtos{
+text-align: center;
+width: auto;
+margin: 0 auto;
+
+}
+.nome{
+	text-align: center;
+	display: block;
+}
+.adocao{
+	margin: 50px auto ;
+	text-align: center;
+}
+
+		.adocao{
+			display: block;
+			background-color: #03a8f5;
+			color: aliceblue;
+			padding: 12px 20px;
+			border-radius: 100px;
+			cursor: pointer;
+		}
+		.adocao:hover{
+			  background-color: #119131
+
+
+iframe {
+	margin-bottom: 20px;
+}
+</style>

@@ -1,0 +1,151 @@
+/* Menu de Navegação inicio */ 
+nav{
+	display: flex;
+	list-style: none;
+    border-radius: 50px;
+	background: rgb(255,255,255);
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(255,201,135,1) 100%);
+	margin: 0 auto;
+	border-style: ridge;
+	border-color:rgb(11, 146, 199);
+}
+nav ul li{
+	display: inline-flex;
+	margin-inline: 20px;
+	text-shadow: -3px 0px 6px rgba(255, 255, 255, 1);
+    font-size: 18px;
+	
+}
+nav ul li a{
+	font-size: 200%;
+	list-style: none;
+	color: rgb(5, 89, 167);
+	display: inline-flex;
+	margin-inline: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+	color: rgb(11, 146, 199);
+	text-decoration: none;
+	text-shadow: -3px 0px 6px rgba(255, 255, 255, 1);
+}
+/* Menu de Navegação fim */
+
+/* Cores do site*/
+body{
+background: rgb(243, 243, 243);
+}
+/*cores do site Fim */
+
+/*h1...h2...h3 */
+h1{
+	border-radius: 50px;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(255,201,135,1) 100%);
+	font-size: 60px;
+	text-shadow: -4px 4px 3px rgba(102,207,255,0.7);
+	color: rgb(5, 89, 167);
+	text-align: center;
+    border-style: ridge;
+	border-color:rgb(11, 146, 199);
+}
+h2{
+	border-radius: 50px;
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(255,201,135,1) 100%);
+	font-size: 40px;
+	text-shadow: -3px 0px 6px rgba(255, 255, 255, 1);
+	color: rgb(5, 89, 167);
+	text-align: center;
+    border-style: ridge;
+	border-color:rgb(11, 146, 199);
+}
+h3{
+	font-size: 195%;
+	color: rgb(5, 89, 167);
+}
+/* h1...h2..h3 Fim*/
+.img{
+	background-color:rgba(255,201,135,1)  ;
+	border-radius: 50px;
+	text-align: top;
+
+}
+.produtos{
+	display: flex;
+	
+}
+.produto{
+	margin: 30px auto;
+}
+/* paginia home inicio */
+
+
+/* pagina home Fim */
+
+/* adote inicio */
+section.Adote{
+
+	display: flex;
+	text-align: center;
+}
+	
+div.Adote{
+	font-size: 33px;
+	background-color:rgba(255,201,135,1)  ;
+	border-radius: 50px;
+	text-align: top;
+}
+
+div.Adote span{
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+div.Adote img{
+	width: 33%;
+	height: auto;
+}
+
+.adocao{
+	border-radius: 50px;
+	border-color: blue;
+	color: rgb(5, 89, 167); 
+	display: block;
+	margin:10px auto;
+}
+
+div{
+	background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(255,201,135,1) 100%);
+	border-radius: 50px;
+	font-size: 50px;
+	text-align: center;
+	border-style:solid;
+	border-color:rgb(11, 146, 199);
+}
+.table{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	border-radius: 100px;
+	font-size: 30px;
+	margin: 0 auto 0 auto;
+}
+	
+/* adote fim */
+
+
+/* Obrigado inicio */
+.home{
+ background-color: aqua;
+}
+/* Obrigado fim */
+
+/* 
+
+/* tabela pagina serviços*/
+
+
